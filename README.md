@@ -6,7 +6,7 @@ The Starcraft player dataset contains player performance data in ranked games. I
 4. Feedforward Neural Network
 
 ## About the dataset
-The dataset has 3395 records with 20 features each. The 'GameID' is a unique identifier for each game. The dataset has features like 'APM', 'ActionLatency', 'NumberOfPACs', etc that define the player performance.
+Import the dataset from the file 'starcraft_player_data.csv'. The dataset has 3395 records with 20 features each. The 'GameID' is a unique identifier for each game. The dataset has features like 'APM', 'ActionLatency', 'NumberOfPACs', etc that define the player performance.
 
 ## Exploratory Data Analysis (EDA)
 1. Number of games played by league:
