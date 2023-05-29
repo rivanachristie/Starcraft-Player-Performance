@@ -39,6 +39,7 @@ The following models are trained as part of data modeling.
 |Feedforward Neural Network	|   47.46%|	41.24% |
 
 ## Conclusion and Future Work
+Based on the data exploration and modeling, here are some of the key findings:
 1. Professional players tend to have a higher actions per minute resulting in lower action latency time. 
 2. As the number of hours spent playing the game increase, the level of expertise of the player also increases. 
 3. Action latency is the most important feature of all because it indicates how quickly a player is able to respond to Perception Action Cycles (PACs). 
