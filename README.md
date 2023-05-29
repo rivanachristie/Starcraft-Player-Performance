@@ -29,7 +29,19 @@ As part of data preprocessing, the following steps are performed:
 7. Splitting into train and test sets
 
 ## Data Modeling
+The following models are trained as part of data modeling.
 
+|Model	                    | Train Accuracy | Test Accuracy |
+| ------------- | ------------- | ------------- |
+|Decision Tree	            |    38.03%	| 36.67% |
+|Random Forest	            |    48.16%	| 40.21% |
+|LightGBM	                  | 49.15%	| 35.49% |
+|Feedforward Neural Network	|   47.46%|	41.24% |
 
+## Conclusion and Future Work
+1. Professional players tend to have a higher actions per minute resulting in lower action latency time. 
+2. As the number of hours spent playing the game increase, the level of expertise of the player also increases. 
+3. Action latency is the most important feature of all because it indicates how quickly a player is able to respond to Perception Action Cycles (PACs). 
+4. Even though we tried 4 different models, we are unable to get high accuracy. This could mean that there are external factors not recorded in the dataset that might be influential in determining the league of a player.
 
-
+In the future, I would like to explore some other models like Logistic Regression, Naive Bayes and XGBoost and I would also like to optimize the models by performing hyperparameter tuning. I would also like to experiment by training a model using features that do not have collinearity to see if they yield better results or not.
