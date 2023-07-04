@@ -10,7 +10,8 @@ Import the dataset from the file 'starcraft_player_data.csv'. The dataset has 33
 
 ## Exploratory Data Analysis (EDA)
 1. Number of games played by league:
-  ![image](https://github.com/rivanachristie/starcraft_player_performance/assets/98617715/e81c94f2-f112-4e1c-b75c-f4970f76b403)
+
+![image](https://github.com/rivanachristie/starcraft_player_performance/assets/98617715/e81c94f2-f112-4e1c-b75c-f4970f76b403)
 
 2. Distribution of Actions per minute (APM) by league:
 ![image](https://github.com/rivanachristie/starcraft_player_performance/assets/98617715/747938ab-7134-4b3b-823c-468b6ac161c7)
